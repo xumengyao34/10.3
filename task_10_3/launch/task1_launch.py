@@ -8,7 +8,7 @@ def generate_launch_description():
             executable='pub_node',
             name='safety_node',
             parameters=[{
-                'max_linear_speed': 0.1,
+                'max_linear_speed': 1.0,
                 'max_angular_speed': 1.5,
                 'timeout_sec': 1.0
             }]
