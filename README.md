@@ -16,4 +16,4 @@ source install/setup.bash
 ros2 topic echo /cmd_vel_safe 以验证速度限制
 四.代码均为AI编写，大致框架由我构建。
 五.视频如下（当时测试时把线速度最大设置成0.1了，所以和前面说的不太一样）
-https://applink.feishu.cn/client/message/link/open?token=AmrBDPrIwFE4asEaru3AET8%3D
+https://my.feishu.cn/file/IM8zbqFSUos017xxCPZc69rx6ze
