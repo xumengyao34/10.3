@@ -61,6 +61,7 @@ private:
         if (safe_msg.angular.z > max_angular_) safe_msg.angular.z = max_angular_;
         if (safe_msg.angular.z < -max_angular_) safe_msg.angular.z = -max_angular_;
 
+       safe_msg.linear.x = std::round(safe_msg.linear.x * 100.0) / 100.0;
         pub_->publish(safe_msg);
     }
 
